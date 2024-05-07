@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Pokémon</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Poppins:ital,wght@1,300;1,500;1,800&display=swap" rel="stylesheet">
+
+
+  <link  rel="stylesheet" href="./src/css/reset.css">
+  <link  rel="stylesheet" href="./src/css/estilo.css">
+  <link  rel="stylesheet" href="./src/css/scrollbar.css">
+
+</head>
+<body>
+  <header>
+    <a href="#">
+      <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo">
+    </a>
+    <button id="botao-alterar-tema">
+      <img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao">
+    </button>
+  </header>
+  <main>
+    <ul class="listagem-pokemon">
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Bulbasaur</span>
+          <span>#001</span>
+        </div>
+        
+        <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-grama">Grama</li>
+          <li class="tipo-veneno">Veneno</li>
+        </ul>
+        
+        <p class="descricao">
+         Há uma semente de planta em suas 
+         costas desde o dia que este pokémon
+         nasce. A semente cresce lentamente.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Ivysaur</span>
+          <span>#002</span>
+        </div>
+        
+        <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-grama">Grama</li>
+          <li class="tipo-veneno">Veneno</li>
+        </ul>
+        
+        <p class="descricao">
+         É um Pokémon anfíbio quadrúpede que tem a pele azul-esverdeada com manchas mais escuras.
+         Sua flor em suas costas cresce conforme à intensidade da luz do sol absorvida. 
+         Como a flor cresce, ele perde a capacidade de ficar sobre as patas traseiras.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Venusaur</span>
+          <span>#003</span>
+        </div>
+        
+        <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-grama">Grama</li>
+          <li class="tipo-veneno">Veneno</li>
+        </ul>
+        
+        <p class="descricao">
+         É um Pokémon quadrúpede com pele verde acidentada, e azulada. Ele tem olhos pequenos
+         e circulares vermelhos, dois dentes pontiagudos em sua mandíbula superior, e quatro dentes
+         pontiagudos em sua mandíbula inferior. Tem três dedos com garras em cada pé.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Charmander</span>
+          <span>#004</span>
+        </div>
+        
+        <img src="./src/imagens/charmander.gif" alt="Charmander" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-fogo">Fogo</li>
+        </ul>
+        
+        <p class="descricao">
+         Charmander é um pequeno bípede, semelhante a um lagarto. A maioria de seu corpo é de cor 
+         laranja, enquanto a sua barriga é uma cor amarelo claro. Charmander, juntamente com todas
+         as suas formas evoluídas, tem uma chama que está constantemente queimando sobre a extremidade
+         da cauda.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Charmeleon</span>
+          <span>#005</span>
+        </div>
+        
+        <img src="./src/imagens/charmeleon.gif" alt="Charmeleon" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-fogo">Fogo</li>
+        </ul>
+        
+        <p class="descricao">
+         Charmeleon que é um pouco cruel. Uma natureza bárbara, nas batalhas, chicoteia seus 
+         oponentes com sua cauda de fogo e corta com garras afiadas, ele é um Pokémon super 
+         potente.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Charizard</span>
+          <span>#006</span>
+        </div>
+        
+        <img src="./src/imagens/charizard.gif" alt="Charizard" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-fogo">Fogo</li>
+        </ul>
+        
+        <p class="descricao">
+         Charizard é a forma evoluída de Charmeleon e a evolução final de Charmander.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Squirtle</span>
+          <span>#007</span>
+        </div>
+        
+        <img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-agua">Água</li>
+        </ul>
+        
+        <p class="descricao">
+         Squirtle é um pequeno Pokémon, azul-claro com uma aparência semelhante ao de uma tartaruga. 
+         Como tartarugas, Squirtle tem um escudo que cobre seu corpo com orifícios que permitem que 
+         seus membros, cauda e cabeça para ser exposto. Ao contrário de uma tartaruga, Squirtle é 
+         normalmente bípede.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Wartortle</span>
+          <span>#008</span>
+        </div>
+        
+        <img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-agua">Água</li>
+        </ul>
+        
+        <p class="descricao">
+         Wartortle são pequenos, bípede, tartaruga como Pokémon com uma aparência semelhante à da sua 
+         forma pré-evoluída, Squirtle. Algumas diferenças são que Wartortles desenvolveram garras e os 
+         dentes mais nítidas e maiores.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Blastoise</span>
+          <span>#009</span>
+        </div>
+        
+        <img src="./src/imagens/blastoise.gif" alt="Blastoise" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-agua">Água</li>
+        </ul>
+        
+        <p class="descricao">
+         Blastoise é uma grande tartaruga com algumas características semelhantes de suas 
+         formas pré-evoluídas. Blastoise tem um grande corpo azul, barriga de cor creme e um grande 
+         escudo marrom aros de branco, com seus canhões de água. É agora visivelmente mais volumoso 
+         do que suas evoluções anteriores.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Caterpie</span>
+          <span>#010</span>
+        </div>
+        
+        <img src="./src/imagens/caterpie.gif" alt="Caterpie" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-inseto">Insetos</li>
+        </ul>
+        
+        <p class="descricao">
+         Caterpie é baseado em uma minhoca. Sua pele é verde, tem olhos amarelos com púpilas pretas, 
+         tem uma antena vermelha, tem uma "boca" verde, tem quatro pequenas patas amarelas, em seu corpo 
+         existem vários círculos amarelos e na ponta de sua calda tem uma espécie de chocalho.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Metapod</span>
+          <span>#011</span>
+        </div>
+        
+        <img src="./src/imagens/metapod.gif" alt="Caterpie" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-inseto">Insetos</li>
+        </ul>
+        
+        <p class="descricao">
+         O escudo que cobre o corpo deste Pokémon é tão duro como uma laje de ferro. Metapod não se
+         move muito. Ele ainda permanece assim porque está preparando suas entranhas macias para a 
+         evolução dentro da casca dura.
+        </p>
+      </li>
+      <li class="cartao-pokemon">
+        <div class="informacoes">
+          <span>Butterfree</span>
+          <span>#012</span>
+        </div>
+        
+        <img src="./src/imagens/butterfree.gif" alt="Caterpie" class="gif">
+      
+        <ul class="tipos">
+          <li class="tipo-inseto">Insetos</li>
+        </ul>
+        
+        <p class="descricao">
+         Butterfree tem a forma de uma borboleta. Seu corpo é roxo, tem olhos vermelhos e duas antenas pretas, 
+         sua boca é preta com dois dentes para fora, ele tem duas mãos pequenas azuis, seus pés são longos e 
+         azuis também, tem asas que são maiores que seu corpo e tem detalhes pretos.
+        </p>
+      </li>
+    </ul>
+  </main>
+  <script src="./src/js/script.js"></script>
+</body>
+</html>
